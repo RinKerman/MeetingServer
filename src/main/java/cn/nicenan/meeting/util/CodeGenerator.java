@@ -33,12 +33,12 @@ import java.util.Scanner;
  * @since 1.0.0
  */
 public class CodeGenerator {
-    private static String projectPath = "D:\\Dev\\github\\meeting\\MeetingServer";
+    private static String projectPath = "/Users/jetrin/Developer/rtc/MeetingServer";
     private static String packetParent = "cn.nicenan.meeting";
     private static String author = "Nannan";
 
     private static String DriverName = "com.mysql.cj.jdbc.Driver";
-    private static String Url = "jdbc:mysql://192.168.2.110:3306/Meeting?serverTimezone=Asia/Shanghai";
+    private static String Url = "jdbc:mysql://192.168.2.20:3306/Meeting?serverTimezone=Asia/Shanghai";
     private static String Username = "root";
     private static String Password = "123456";
 
